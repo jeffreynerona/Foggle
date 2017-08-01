@@ -26,6 +26,13 @@ gem 'jquery-rails'
 # Use Toastr for notifications
 gem 'toastr-rails'
 
+#Use Omniauth for Facebook and Google Login
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-oauth2', '~> 1.3.1'
+gem 'omniauth-google-oauth2'
+
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
