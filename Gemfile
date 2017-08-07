@@ -38,6 +38,9 @@ gem 'font-awesome-sass'
 # Use paperclip for uploading images
 gem 'paperclip'
 
+# Use Geocoder for getting coordinates using Address
+gem 'geocoder'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes

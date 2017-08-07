@@ -29,6 +29,7 @@ class RoomsController < ApplicationController
       redirect_to edit_room_path(@room), notice: "Saved..."
     else
       render :new
+      flash[:alert] = "Please provide all information for this room."
     end
   end
 
