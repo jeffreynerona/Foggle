@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   resources :photos
 
   resources :room do
-    resources :reservations, only[:create]
+    resources :reservations, only: [:create]
   end
   
 end

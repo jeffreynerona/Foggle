@@ -41,6 +41,9 @@ gem 'paperclip'
 # Use Geocoder for getting coordinates using Address
 gem 'geocoder'
 
+# Use Jquery UI Rails for Date Picker
+gem 'jquery-ui-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
