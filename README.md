@@ -1,24 +1,56 @@
-# README
+# Foggle
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![status|inprogress](http://jeffreynerona.com/badges/status-inprogress.svg)](http://jeffreynerona.com/projects) [![type|practice-project](http://jeffreynerona.com/badges/type-practiceproject.svg)](http://jeffreynerona.com/projects/) [![language|ruby](http://jeffreynerona.com/badges/language-ruby.svg)](http://jeffreynerona.com/projects/ruby)  [![type|practice-project](http://jeffreynerona.com/badges/technology-rubyonrails.svg)](http://jeffreynerona.com/projects/)
 
-Things you may want to cover:
+An Airbnb clone made with Ruby on Rails 
 
-* Ruby version
+![jeffreynerona|Foggle](https://raw.githubusercontent.com/jeffreynerona/Foggle/master/screenshot/foggle.png)
 
-* System dependencies
+# Features
 
-* Configuration
+  - Login and Register
+  - Login with Facebook or Google Plus
+  - Create, View, Update, and Delete Properties
+  - Create Reservations
+  - Image Upload
 
-* Database creation
+# Gems Used
 
-* Database initialization
+  - paperclip (Image upload)
+  - bootstrap-sass (Frontend Design)
+  - sass-rails (Frontend Design)
+  - toastr-rails (Notifications)
+  - devise (Authentication)
+  - omniauth (Authentication)
+  - omniauth-facebook (Authentication)
+  - omniauth-oauth2 (Authentication)
+  - omniauth-google-oauth2 (Authentication)
+  - font-awesome-sass (Icons)
+  - geocoder (Map coordinates)
 
-* How to run the test suite
+# Installation
+Make a project folder then open it:
+```sh
+$ mkdir Foggle && cd Foggle
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Clone Repository:
+```sh
+$ git clone git@github.com:jeffreynerona/Foggle.git
+```
 
-* Deployment instructions
+Install dependencies:
+```sh
+$ bundle install
+```
 
-* ...
+Migrate Database:
+```sh
+$ rake db:migrate
+```
+
+Run the server:
+```sh
+$ rails s
+```
+
