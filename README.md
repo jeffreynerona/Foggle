@@ -1,9 +1,9 @@
 # Foggle
 
-[![status|inprogress](http://jeffreynerona.com/badges/status-inprogress.svg)](http://jeffreynerona.com/projects) [![type|practice-project](http://jeffreynerona.com/badges/type-practiceproject.svg)](http://jeffreynerona.com/projects/) [![language|ruby](http://jeffreynerona.com/badges/language-ruby.svg)](http://jeffreynerona.com/projects/ruby)  [![type|practice-project](http://jeffreynerona.com/badges/technology-rubyonrails.svg)](http://jeffreynerona.com/projects/)
+[![status|abandoned](http://jeffreynerona.com/badges/status-abandoned.svg)](http://jeffreynerona.com/projects) [![type|practice-project](http://jeffreynerona.com/badges/type-practiceproject.svg)](http://jeffreynerona.com/projects/) [![language|ruby](http://jeffreynerona.com/badges/language-ruby.svg)](http://jeffreynerona.com/projects/ruby)  [![type|practice-project](http://jeffreynerona.com/badges/technology-rubyonrails.svg)](http://jeffreynerona.com/projects/)
 
 An Airbnb clone made with Ruby on Rails 
-
+( Abandoning this to do it in React with RoR )
 ![jeffreynerona|Foggle](https://raw.githubusercontent.com/jeffreynerona/Foggle/master/screenshot/foggle.png)
 
 # Features
